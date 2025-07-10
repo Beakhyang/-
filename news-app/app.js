@@ -1,4 +1,6 @@
-const API_KEY = 'YOUR_NEWSAPI_KEY';
+// Pre-configured NewsAPI key provided by the user
+// NOTE: If you wish to use a different key, replace the value below.
+const API_KEY = 'f54c1d070b0747b6b21180cbd04e3474';
 const API_URL = `https://newsapi.org/v2/top-headlines?country=kr&apiKey=${API_KEY}`;
 
 document.getElementById('load-news').addEventListener('click', async () => {
